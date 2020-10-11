@@ -3,4 +3,12 @@
     <string name="app_name">과제 1</string>
     <string name="hello_message">안녕하세요!</string>
     <string name="ButtonText">저는 버튼입니다</string>
+    <string name="login_name">로그인</string>
+    <string name="login_name_hint">로그인 이름</string>
+    <string name="password_name">비밀번호</string>
+    <string name="password_name_hint">비밀번호</string>
+    <string name="radio_button_name">라디오 버튼</string>
+    <string name="check_box_name">체크 박스</string>
+    <string name="switch_name">무엇인가요?</string>
+    <string name="image_name">사진</string>
 </resources>
