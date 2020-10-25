@@ -34,6 +34,7 @@
         android:id="@+id/imageButton"
         android:layout_columnWeight="1"
         android:gravity="fill"
+        android:onClick="onClicked"
         app:srcCompat="@android:drawable/ic_menu_camera"
         android:contentDescription="@string/image_name" />
 </GridLayout>
