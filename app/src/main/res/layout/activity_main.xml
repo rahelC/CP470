@@ -23,8 +23,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
         android:layout_marginTop="55dp"
-        android:text="@string/ButtonText"
         android:onClick="onClicked"
+        android:text="@string/ButtonText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginBottom="542dp"
+        android:text="@string/start_chat_button"
+        android:onClick="onStartChatClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

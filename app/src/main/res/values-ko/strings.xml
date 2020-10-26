@@ -11,8 +11,17 @@
     <string name="check_box_name">체크 박스</string>
     <string name="switch_name">무엇인가요?</string>
     <string name="image_name">사진</string>
-    <string name="login_button">로그인</string>
 
+    <string name="login_button">로그인</string>
     <string name="preference_name">저장_파일</string>
     <string name="key_email">이메일</string>
+
+    <string name="start_chat_button">채팅 시작하기</string>
+    <string name="send_button">보내기</string>
+    <string name="edit_text">텍스트</string>
+    <string name="img_out_going">발신 이미지</string>
+    <string name="text_out_going">발신 텍스트</string>
+    <string name="img_in_coming">수신 이미지</string>
+    <string name="text_in_coming">수신 텍스트</string>
+
 </resources>

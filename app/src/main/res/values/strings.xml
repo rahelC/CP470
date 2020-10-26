@@ -10,8 +10,17 @@
     <string name="check_box_name">CheckBox</string>
     <string name="switch_name">What does this do?</string>
     <string name="image_name">Image</string>
-    <string name="login_button">Login</string>
 
+    <string name="login_button">Login</string>
     <string name="preference_name">my_shared_preferences</string>
     <string name="key_email">email</string>
+
+    <string name="start_chat_button">Start Chat</string>
+    <string name="send_button">SEND</string>
+    <string name="edit_text">text</string>
+    <string name="img_out_going">Outgoing Image</string>
+    <string name="text_out_going">Outgoing Text</string>
+    <string name="img_in_coming">Incoming Image</string>
+    <string name="text_in_coming">Incoming Text</string>
+
 </resources>
