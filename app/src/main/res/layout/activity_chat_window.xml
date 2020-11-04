@@ -21,7 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:onClick="onClicked"
         android:text="@string/send_button" />
 
     <EditText

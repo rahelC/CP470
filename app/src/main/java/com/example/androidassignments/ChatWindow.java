@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -32,8 +34,17 @@ public class ChatWindow extends AppCompatActivity {
         sendBtn = (Button) findViewById(R.id.sendButton);
 
         //in this case, “this” is the ChatWindow, which is-A Context object
-        ChatAdapter messageAdapter = new ChatAdapter(this);
+        final ChatAdapter messageAdapter = new ChatAdapter(this);
         chatView.setAdapter(messageAdapter);
+
+        View.OnClickListener itemListener = new View.OnClickListener() {
+            public void onClick(View v) {
+                chatList.add(chatEditText.getText().toString());
+                messageAdapter.notifyDataSetChanged(); //this restarts the process of getCount()/getView()
+                chatEditText.setText("");
+            }
+        };
+        sendBtn.setOnClickListener(itemListener);
     }
 
     class ChatAdapter extends ArrayAdapter<String> {
@@ -62,20 +73,10 @@ public class ChatWindow extends AppCompatActivity {
                 result = inflater.inflate(R.layout.chat_row_outgoing, null);
             }
 
-            TextView message = (TextView) result.findViewById(R.id.editChat);
+            TextView message = (TextView) result.findViewById(R.id.textView);
             message.setText(getItem(position)); // get the string at position
 
             return result;
         }
-    }
-
-    // Whenever the user clicks it, add it to ArrayList
-    public void onClicked(View v) {
-        chatList.add(chatEditText.getText().toString());
-
-        ChatAdapter messageAdapter = new ChatAdapter(this);
-        messageAdapter.notifyDataSetChanged(); //this restarts the process of getCount()/getView()
-
-        chatEditText.setText("");
     }
 }
