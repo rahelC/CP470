@@ -23,4 +23,20 @@
     <string name="img_in_coming">Incoming Image</string>
     <string name="text_in_coming">Incoming Text</string>
 
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="first_icon">One</string>
+    <string name="second_icon">Two</string>
+    <string name="third_icon">Three</string>
+    <string name="about_icon">About</string>
+    <string name="test_tool_button">Test Toolbar</string>
+    <string name="alert_dialog_title">Do you want to close app?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="custom_dialog_hint">Add item…</string>
+    <string name="snackbar_str1">Option 1 selected</string>
+    <string name="snackbar_str2">Option 2 selected</string>
+    <string name="snackbar_str3">Option 3 selected</string>
+    <string name="testing_floating_msg">Testing floating action button…</string>
+    <string name="version_msg">Version 1.0, by Rachel Choi</string>
+
 </resources>

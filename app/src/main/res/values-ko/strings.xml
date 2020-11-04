@@ -24,4 +24,20 @@
     <string name="img_in_coming">수신 이미지</string>
     <string name="text_in_coming">수신 텍스트</string>
 
+    <string name="title_activity_test_toolbar">테스트 툴바</string>
+    <string name="first_icon">하나</string>
+    <string name="second_icon">둘</string>
+    <string name="third_icon">셋</string>
+    <string name="about_icon">정보</string>
+    <string name="test_tool_button">테스트 툴바</string>
+    <string name="alert_dialog_title">프로그램을 중단하시겠습니까?</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="custom_dialog_hint">아이템 추가…</string>
+    <string name="snackbar_str1">옵션 1이 선택되었습니다</string>
+    <string name="snackbar_str2">옵션 2이 선택되었습니다</string>
+    <string name="snackbar_str3">옵션 3이 선택되었습니다</string>
+    <string name="testing_floating_msg">메세지 테스트 중…</string>
+    <string name="version_msg">버젼 1.0, by Rachel Choi</string>
+
 </resources>

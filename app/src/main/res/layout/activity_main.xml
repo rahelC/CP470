@@ -35,9 +35,20 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="144dp"
         android:layout_marginBottom="542dp"
-        android:text="@string/start_chat_button"
         android:onClick="onStartChatClicked"
+        android:text="@string/start_chat_button"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="125dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="205dp"
+        android:onClick="onTestToolbarClicked"
+        android:text="@string/test_tool_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

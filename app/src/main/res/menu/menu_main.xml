@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TestToolbar">
+
+    <item
+        android:id="@+id/action_one"
+        android:icon="@android:drawable/btn_star"
+        android:orderInCategory="101"
+        android:title="@string/first_icon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_two"
+        android:icon="@drawable/abc_vector_test"
+        android:orderInCategory="102"
+        android:title="@string/second_icon"
+        app:showAsAction="always"
+        tools:ignore="PrivateResource" />
+
+    <item
+        android:id="@+id/action_three"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="103"
+        android:title="@string/third_icon"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_about"
+        android:title="@string/about_icon"
+        android:orderInCategory="105"
+        app:showAsAction="never" />
+
+</menu>

@@ -69,4 +69,10 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i(ACTIVITY_NAME, "User clicked Start Chat");
     }
+
+    public void onTestToolbarClicked(View v) {
+        // Go to the next activity (Test Toolbar)
+        Intent mIntent = new Intent(MainActivity.this, TestToolbar.class);
+        startActivity(mIntent);
+    }
 }
