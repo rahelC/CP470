@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">과제 2</string>
+    <string name="app_name">과제 3</string>
     <string name="hello_message">안녕하세요!</string>
     <string name="ButtonText">저는 버튼입니다</string>
     <string name="login_name">로그인</string>
