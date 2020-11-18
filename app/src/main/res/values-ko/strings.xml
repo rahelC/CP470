@@ -40,4 +40,10 @@
     <string name="testing_floating_msg">메세지 테스트 중…</string>
     <string name="version_msg">버젼 1.0, by Rachel Choi</string>
 
+    <string name="forecast_btn">기상 예보 확인</string>
+    <string name="current_temperature">현재 기온:</string>
+    <string name="min_temperature">최저 기온:</string>
+    <string name="max_temperature">최고 기온:</string>
+    <string name="select_a_canadian_city"><b>기상 예보를 확인하시려면 캐나다 도시를 선택해주세요</b></string>
+
 </resources>

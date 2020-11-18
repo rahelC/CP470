@@ -75,4 +75,10 @@ public class MainActivity extends AppCompatActivity {
         Intent mIntent = new Intent(MainActivity.this, TestToolbar.class);
         startActivity(mIntent);
     }
+
+    public void onCheckForecastClicked(View v) {
+        // Go to the next activity (Weather Forecast)
+        Intent mIntent = new Intent(MainActivity.this, WeatherForecast.class);
+        startActivity(mIntent);
+    }
 }
