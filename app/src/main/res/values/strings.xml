@@ -293,4 +293,8 @@
         <item>Yellowknife</item>
         <item>Yorkton</item>
     </string-array>
+
+    <string name="message">MessageHere</string>
+    <string name="id">ID:</string>
+    <string name="delete_msg">Delete this message</string>
 </resources>

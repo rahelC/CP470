@@ -46,4 +46,8 @@
     <string name="max_temperature">최고 기온:</string>
     <string name="select_a_canadian_city"><b>기상 예보를 확인하시려면 캐나다 도시를 선택해주세요</b></string>
 
+    <string name="message">메세지 내용</string>
+    <string name="id">아이디:</string>
+    <string name="delete_msg">메세지 삭제</string>
+
 </resources>
